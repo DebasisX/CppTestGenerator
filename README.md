@@ -149,6 +149,36 @@ C-TestGenerator/
 3. Experiment with other LLM models  
 4. Enhance test coverage metrics and reporting  
 
+## Report (also added a screenshot):
+
+./test_runner
+[==========] Running 7 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from AddTest
+[ RUN      ] AddTest.PositiveNumbers
+[       OK ] AddTest.PositiveNumbers (0 ms)
+[ RUN      ] AddTest.NegativeNumbers
+[       OK ] AddTest.NegativeNumbers (0 ms)
+[ RUN      ] AddTest.MixedSignNumbers
+[       OK ] AddTest.MixedSignNumbers (0 ms)
+[----------] 3 tests from AddTest (0 ms total)
+
+[----------] 4 tests from DivideTest
+[ RUN      ] DivideTest.NormalDivision
+[       OK ] DivideTest.NormalDivision (0 ms)
+[ RUN      ] DivideTest.FractionResult
+[       OK ] DivideTest.FractionResult (0 ms)
+[ RUN      ] DivideTest.DivisionByZero
+[       OK ] DivideTest.DivisionByZero (0 ms)
+[ RUN      ] DivideTest.LargeNumbers
+[       OK ] DivideTest.LargeNumbers (0 ms)
+[----------] 4 tests from DivideTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 7 tests.
+
+
 THANKS
 ------
 Debasis Sikdar
